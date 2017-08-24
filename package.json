@@ -1,0 +1,26 @@
+{
+  "name": "swiftybeaver-proxy",
+  "version": "1.0.0",
+  "description": "A proxy to the API server of SwifyBeaver.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThomasLee969/swiftybeaver-proxy.git"
+  },
+  "keywords": [
+    "swiftybeaver",
+    "proxy"
+  ],
+  "author": "Sihan Li",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ThomasLee969/swiftybeaver-proxy/issues"
+  },
+  "homepage": "https://github.com/ThomasLee969/swiftybeaver-proxy#readme",
+  "dependencies": {
+    "http-proxy": "^1.16.2"
+  }
+}
