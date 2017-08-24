@@ -4,7 +4,6 @@
   "description": "A proxy to the API server of SwifyBeaver.",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
