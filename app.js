@@ -9,5 +9,5 @@ let proxy = httpProxy.createProxyServer({
 proxy.listen(80);
 
 proxy.on('proxyReq', function(proxyReq, req, res, options) {
-  proxyReq.setHeader('Authorization', req.headers.authorization);
+  proxyReq.setHeader('Authorization', req.headers.authorization || ':');
 });
