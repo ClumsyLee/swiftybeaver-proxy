@@ -6,7 +6,7 @@ let proxy = httpProxy.createProxyServer({
   secure: false
 });
 
-proxy.listen(80);
+proxy.listen(8080);
 
 proxy.on('proxyReq', function(proxyReq, req, res, options) {
   proxyReq.setHeader('Authorization', req.headers.authorization || ':');
